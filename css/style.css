@@ -11,10 +11,11 @@ body {
 #wrapper {
     background: hsl(0, 0%, 100%);
     width: 300px;
-    margin: 2em auto;
-       padding: 1em;
+    margin: 3em auto;
+ padding: 1em;
     border-radius: 10px;
-    }
+    box-shadow: 7px 7px hsl(0, 0%, 7%);
+}
 
 .image-article-blog {
     width: 100%;
