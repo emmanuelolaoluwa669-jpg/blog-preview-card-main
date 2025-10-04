@@ -1,0 +1,81 @@
+::before, ::after, * {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: hsl(47, 88%, 63%);
+    font-family: "Figtree";
+}
+
+#wrapper {
+    background: hsl(0, 0%, 100%);
+    width: 300px;
+    margin: 2em auto;
+       padding: 1em;
+    border-radius: 10px;
+    }
+
+.image-article-blog {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.learning {
+    background: hsl(47, 88%, 63%);
+    margin-top: 1em;
+    margin-bottom: .7em;
+    padding: .3em;
+    width: fit-content;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.publish-date {
+    color:  hsl(0, 0%, 7%);
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: .7em;
+}
+
+.html-css-foundation {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: .7em;
+}
+
+.html-css-foundation:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.html-css-article {
+    font-size: .8em;
+    color: hsl(0, 0%, 42%);
+    line-height: 1.5;
+}
+
+.author {
+    display: flex;
+    gap: .5em;
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+.author-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(0, 0%, 7%);
+    align-self: center;
+}
+.greg-hooper {
+    width: 10%;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
